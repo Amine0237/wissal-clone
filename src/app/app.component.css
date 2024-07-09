@@ -1,0 +1,33 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  .container {
+    display: grid;
+    grid-template-areas:
+      'header header'
+      'navbar main'
+      'footer footer';
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 129.82px 1fr 59.99px;
+    height: 100vh;
+    gap: 0px;
+  }
+  app-header {
+    background-color: red;
+    grid-area: header;
+  }
+  app-navbar {
+    background-color: yellow;
+    grid-area: navbar;
+  }
+  app-main {
+    background-color: green;
+    grid-area: main;
+  }
+  app-footer {
+    background-color: blue;
+    grid-area: footer;
+  }
+  

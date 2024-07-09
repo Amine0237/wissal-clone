@@ -1,0 +1,163 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.logo-wissal {
+    width: 300px;
+    height: 100%;
+}
+
+.logo-wissal img {
+    width: 300px;
+    height: 100%;
+}
+
+.search {
+    width: 36.82%;
+    height: 37.6px;
+    /*margin-left: -426px;*/
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: calc(100% - 41.6px);
+    height: 100%;
+    border-radius: 18.8px 0 0 18.8px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: 0 solid black;
+    background-color: #eeeeee;
+}
+
+.search input:focus{
+    outline: 0px solid black;
+}
+
+.search button {
+    width: 41.6px;
+    border-radius: 0 18.8px 18.8px 0;
+    height: 100%;
+    border: 0 solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f28221;
+}
+
+.search button i {
+    color: white;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 499.65px;
+    height: 37.6px;
+}
+
+.bonjour-utilisateur {
+    cursor: pointer;
+    width: 249.25px;
+    height: 37.6px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+
+.bonjour-utilisateur:hover div, .bonjour-utilisateur:hover, .bonjour-utilisateur:hover div span{
+    color: white;
+}
+
+.bonjour-utilisateur:hover {
+    background-color: #999999;
+
+}
+
+.bonjour-utilisateur div {
+    font-size: 1.03rem;
+    color: #999999;
+    transition: color 0.3s ease-in-out 0s;
+}
+
+.bonjour-utilisateur div span {
+    color: black;
+    font-weight: 900;
+    transition: color 0.3s ease-in-out 0s;
+}
+
+.notifications {
+    position: relative;
+    width: 47.6px;
+    height: 47.6px;
+    margin-top: -12px;
+}
+
+.notifications-button:hover {
+    background-color: white;
+    color: #00589a;
+}
+
+.notifications-button:hover .notifications-button-i {
+    color: inherit;
+}
+/* 
+.counter:hover + .notifications-button {
+    background-color: white;
+    color: #00589a;
+}
+
+.counter:hover + .notifications-button {
+    background-color: white;
+} */
+
+
+.counter {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    top: 0px;
+    right: 0px;
+    background-color: #f28221;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.notifications-button {
+    position: absolute;
+    width: 35.6px;
+    height: 35.6px;
+    background-color: #00589a;
+    color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    top: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+
+.notifications-button-i {
+    color: inherit;
+    transition: color 0.3s ease-in-out 0s;
+}
+
+.notifications button i {
+    color: white;
+}
