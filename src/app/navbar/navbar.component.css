@@ -16,8 +16,12 @@
     align-items: center;
     position: relative;
     border: 0.5px solid #dddddd;
+    cursor: pointer;
 }
 
+.container-element:hover {
+    background-color: #f5faff;
+}
 .container-element span {
     text-transform: uppercase;
     font-weight: 900;
