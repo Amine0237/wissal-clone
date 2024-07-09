@@ -7,7 +7,7 @@
     display: grid;
     grid-template-areas:
       'header header'
-      'navbar main'
+      'navbar router'
       'footer footer';
     grid-template-columns: 300px 1fr;
     grid-template-rows: 129.82px 1fr 59.99px;
@@ -22,9 +22,9 @@
     background-color: yellow;
     grid-area: navbar;
   }
-  app-main {
+  .router-container {
     background-color: green;
-    grid-area: main;
+    grid-area: router;
   }
   app-footer {
     background-color: blue;
